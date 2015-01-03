@@ -29,8 +29,6 @@
 {
 	if([super init])
 	{
-		NSLog(filePath);
-	
 		buffer = [[[NSString stringWithContentsOfFile:filePath] componentsSeparatedByString:@"\n"] retain];
 	}
 	
